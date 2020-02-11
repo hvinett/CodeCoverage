@@ -43,5 +43,5 @@ steps:
     platform: '$(BuildPlatform)'
     configuration: '$(BuildConfiguration)'
     diagnosticsEnabled: True
-    runSettingsFile: '$(System.DefaultWorkingDirectory)\**\cc.runsettings'
+    runSettingsFile: '$(System.DefaultWorkingDirectory)\CodeCoverage\cc.runsettings'
 
