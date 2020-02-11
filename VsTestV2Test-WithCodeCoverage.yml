@@ -37,8 +37,7 @@ steps:
   displayName: 'VsTest - testAssemblies'
   inputs:
     testAssemblyVer2: |
-     **\$(BuildConfiguration)\*test*.dll
-     !**\obj\**
+     **\*test*.dll
     vsTestVersion: toolsInstaller
     codeCoverageEnabled: true
     platform: '$(BuildPlatform)'
