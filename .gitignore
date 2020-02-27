@@ -5,5 +5,5 @@
 /CodeCoverage/.vs/CodeCoverage/v15
 /CodeCoverage/**/obj/Debug
 /CodeCoverage/packages
-/CodeCoverage/TestResults
+/CodeCoverage/**/TestResults
 
