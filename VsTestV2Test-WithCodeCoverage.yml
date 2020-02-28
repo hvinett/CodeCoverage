@@ -12,8 +12,5 @@ steps:
      **\Module1Test1.dll
     vsTestVersion: toolsInstaller
     codeCoverageEnabled: true
-    platform: '$(BuildPlatform)'
-    configuration: '$(BuildConfiguration)'
-    diagnosticsEnabled: True
     runSettingsFile: '$(System.DefaultWorkingDirectory)\CodeCoverage\cc.runsettings'
 
