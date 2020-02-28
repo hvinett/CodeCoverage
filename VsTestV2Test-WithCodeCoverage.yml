@@ -9,7 +9,7 @@ steps:
   displayName: 'VsTest - testAssemblies'
   inputs:
     testAssemblyVer2: |
-     **\*test*.dll
+     **\Module1Test1.dll
     vsTestVersion: toolsInstaller
     codeCoverageEnabled: true
     platform: '$(BuildPlatform)'
